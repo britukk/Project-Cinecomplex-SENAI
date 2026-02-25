@@ -7,4 +7,13 @@ public interface FilmesRepository extends CrudRepository<Filmes, Integer> {
 
 }
 
-// ainda tenho que ver se a gente precisa disso, peguei do código dos eventos que fizemos
+// colocar na classe filmes depois:
+
+//@Entity
+//@Table(name = "filmes") // Nome da tabela no banco de dados
+//public class Filmes {
+//
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    private Integer id;
+
